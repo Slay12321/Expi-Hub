@@ -1,0 +1,1249 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+local Window = Rayfield:CreateWindow({
+	Name = "                              EXPI-HUB",
+	LoadingTitle = "WELCOME TO EXPI HUB",
+	LoadingSubtitle = "MADE BY Caleb*#7450",
+	ConfigurationSaving = {
+		Enabled = true,
+		FolderName = nil, -- Create a custom folder for your hub/game
+		FileName = "Expi Hub"
+	},
+        Discord = {
+        	Enabled = true,
+        	Invite = "Unknown", -- The Discord invite code, do not include discord.gg/
+        	RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+        },
+	KeySystem = true, -- Set this to true to use our key system
+	KeySettings = {
+		Title = "Expi-Hub Key System",
+		Subtitle = "Key System",
+		Note = "Test Gui!",
+		FileName = "KEY SYSTEM",
+		SaveKey = false,
+		GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+		Key = "test"
+	}
+})
+
+
+Rayfield:Notify({
+    Title = "Made by Caleb*#7540",
+    Content = "All Script's Made By: Caleb*7540",
+    Duration = 6.5,
+    Image = 200081952,
+    Actions = { -- Notification Buttons
+        Ignore = {
+            Name = "Ate!",
+            Callback = function()
+                print("The user tapped Yes!")
+            end
+		},
+	},
+})
+
+
+
+
+
+
+
+
+local Tab = Window:CreateTab("H20 MOON MAGIC", 12502865496) -- Title, Image
+local Section = Tab:CreateSection("MAIN SCRIPTS!")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+local Main = Tab:CreateButton({
+	Name = "Emmas Keybind (B)",
+	Callback = function()
+        print("Error")
+        warn("WARNED")
+        wait(0.1)
+        warn("WARNED")
+        print("Running Notifaction")
+        warn("Banned")
+        warn("Notifaction pop!")
+        wait(0.1)
+        warn("Exlcuding Kick")
+        -- game.Players.H00chi:Kick("Client Dissconected")
+        print("Yes Or No")
+        print("Yes Selected!")
+        wait(1)
+        warn("UI FATAL ERROR")
+        Rayfield:Notify({
+            Title = "Expi-Hub",
+            Content = "FATAL ERROR",
+            Duration = 4,
+            Image = 4483362458,
+            Actions = { -- Notification Buttons
+               Ignore = {
+                  Name = "Okay",
+                  Callback = function()
+                  print("The user tapped Okay!")
+               end
+            },
+         },
+         })
+    end,
+})
+
+
+
+local Main = Tab:CreateButton({
+	Name = "Rikki Pyrokinesis (F)",
+	Callback = function()
+        print("Rikki Pyro Started")
+        warn("Tehehe")
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end,
+})
+
+
+
+
+local Main = Tab:CreateButton({
+	Name = "Blast Around You",
+	Callback = function()
+        local args = {
+            [1] = "vortex",
+            [2] = Vector3.new(-783.9081420898438, -10.000000953674316, 153.08319091796875)
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+        local args = {
+            [1] = "explodeVortex",
+            [2] = Vector3.new(-492.86639404296875, 88.971435546875, 21.13317108154297)
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+        local args = {
+            [1] = "areaJelly",
+            [2] = Vector3.new(-751.278076171875, -10, 161.71524047851562)
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("BellaObjs"):WaitForChild("BellaEvents"):FireServer(unpack(args))
+        game:GetService("Players").LocalPlayer.Character.Ragdoll.Ragdoll.UnragdollEvent:FireServer()
+        local args = {
+            [1] = "releaseWave",
+            [2] = Vector3.new(-1099.7845458984375, 19.76519012451172, 170.6182098388672)
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+        local args = {
+            [1] = "releaseWave",
+            [2] = Vector3.new(-1161.664794921875, 20.676342010498047, 197.38644409179688)
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+        local args = {
+            [1] = "releaseWave",
+            [2] = Vector3.new(-1075.5732421875, 21.185253143310547, 190.89939880371094)
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+        local args = {
+            [1] = "releaseWave",
+            [2] = Vector3.new(-1076.1318359375, 16.207489013671875, 216.53321838378906)
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+        local args = {
+            [1] = "releaseWave",
+            [2] = Vector3.new(-1152.584228515625, -12.421875, 300.9513854980469)
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+    end,
+})
+
+
+
+
+local Main = Tab:CreateButton({
+	Name = "Blast Around You",
+	Callback = function()
+        print("TY FOR YOU USING MY SCRIPTS")
+        warn("Tehehe")
+        local args = {
+            [1] = "vortex",
+            [2] = Vector3.new(-783.9081420898438, -10.000000953674316, 153.08319091796875)
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+        local args = {
+            [1] = "explodeVortex",
+            [2] = Vector3.new(-492.86639404296875, 88.971435546875, 21.13317108154297)
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+        local args = {
+            [1] = "areaJelly",
+            [2] = Vector3.new(-751.278076171875, -10, 161.71524047851562)
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("BellaObjs"):WaitForChild("BellaEvents"):FireServer(unpack(args))
+        game:GetService("Players").LocalPlayer.Character.Ragdoll.Ragdoll.UnragdollEvent:FireServer()
+        local args = {
+            [1] = "releaseWave",
+            [2] = Vector3.new(-1099.7845458984375, 19.76519012451172, 170.6182098388672)
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+        local args = {
+            [1] = "releaseWave",
+            [2] = Vector3.new(-1161.664794921875, 20.676342010498047, 197.38644409179688)
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+        local args = {
+            [1] = "releaseWave",
+            [2] = Vector3.new(-1075.5732421875, 21.185253143310547, 190.89939880371094)
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+        local args = {
+            [1] = "releaseWave",
+            [2] = Vector3.new(-1076.1318359375, 16.207489013671875, 216.53321838378906)
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+        local args = {
+            [1] = "releaseWave",
+            [2] = Vector3.new(-1152.584228515625, -12.421875, 300.9513854980469)
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+    end,
+})
+
+
+
+local Label = Tab:CreateLabel("Misc")
+
+
+
+
+local Main = Tab:CreateButton({
+	Name = "Infinte Yield",
+	Callback = function()
+        print("Infinte Yield Running")
+        warn("Tehehe")
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end,
+})
+
+
+
+
+local Main = Tab:CreateButton({
+	Name = "Storm Creation",
+	Callback = function()
+        print("STARTING STORM")
+        warn("USE ANITLAG!")
+        local A = {34556,566677,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545}
+
+for i, v in pairs(A) do
+    print("AUTODEFENSE COUNTING")
+    warn("Account Under Radar")
+    wait(0.1)
+    local args = {
+        [1] = "vortex",
+        [2] = Vector3.new(-783.9081420898438, -10.000000953674316, 153.08319091796875)
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+    local args = {
+        [1] = "explodeVortex",
+        [2] = Vector3.new(-492.86639404296875, 88.971435546875, 21.13317108154297)
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+    local args = {
+        [1] = "areaJelly",
+        [2] = Vector3.new(-751.278076171875, -10, 161.71524047851562)
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("BellaObjs"):WaitForChild("BellaEvents"):FireServer(unpack(args))
+    game:GetService("Players").LocalPlayer.Character.Ragdoll.Ragdoll.UnragdollEvent:FireServer()
+    local args = {
+        [1] = "releaseWave",
+        [2] = Vector3.new(-1099.7845458984375, 19.76519012451172, 170.6182098388672)
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+    local args = {
+        [1] = "releaseWave",
+        [2] = Vector3.new(-1161.664794921875, 20.676342010498047, 197.38644409179688)
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+    local args = {
+        [1] = "releaseWave",
+        [2] = Vector3.new(-1075.5732421875, 21.185253143310547, 190.89939880371094)
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+    local args = {
+        [1] = "releaseWave",
+        [2] = Vector3.new(-1076.1318359375, 16.207489013671875, 216.53321838378906)
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+    local args = {
+        [1] = "releaseWave",
+        [2] = Vector3.new(-1152.584228515625, -12.421875, 300.9513854980469)
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+    warn("SKIPED WAVE1")
+    warn("SKIPPED WAVE2")
+    warn("SKIPPING ALL WAVES PLEASE DM #CALEB FOR MORE INFORMATION")
+    print(i)
+    print(v)
+end
+    end,
+})
+
+
+
+
+local Main = Tab:CreateSlider({
+	Name = "Speed Slider",
+	Range = {0, 500},
+	Increment = 5,
+	Suffix = "Speed",
+	CurrentValue = 10,
+	Flag = "Slider1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+	Callback = function(s)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+	end,
+})
+
+
+
+
+local Main = Tab:CreateSlider({
+	Name = "Health Slider",
+	Range = {0, 10000},
+	Increment = 5,
+	Suffix = "Health",
+	CurrentValue = 10,
+	Flag = "Slider12", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+	Callback = function(s)
+		game.Players.LocalPlayer.Character.Humanoid.Health = s
+	end,
+})
+
+
+
+
+local Label = Tab:CreateLabel("Others")
+
+
+
+
+local Main = Tab:CreateButton({
+	Name = "Own all gamepasses",
+	Callback = function()
+        print("GAMEPASS GIVE")
+        warn("Tehehe")
+        game.Players.LocalPlayer.UserId = "118670327"
+    end,
+})
+
+
+
+
+local Main = Tab:CreateButton({
+	Name = "Spam Chat",
+	Callback = function()
+        print("Starting chat......")
+        warn("NO MORE MUTANTS!")
+        warn("NO MORE FAGGOTS")
+        local args = {
+            [1] = "BOOSAYYY",
+            [2] = "All"
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+        
+    end,
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+local cool = Window:CreateTab("Mystic Falls", 448336245)
+local Section = cool:CreateSection("Main Scripts!")
+
+
+
+
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+local Window = Rayfield:CreateWindow({
+	Name = "                              EXPI-HUB",
+	LoadingTitle = "WELCOME TO EXPI HUB",
+	LoadingSubtitle = "MADE BY Caleb*#7450",
+	ConfigurationSaving = {
+		Enabled = true,
+		FolderName = nil, -- Create a custom folder for your hub/game
+		FileName = "Expi Hub"
+	},
+        Discord = {
+        	Enabled = true,
+        	Invite = "Unknown", -- The Discord invite code, do not include discord.gg/
+        	RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+        },
+	KeySystem = true, -- Set this to true to use our key system
+	KeySettings = {
+		Title = "Expi-Hub Key System",
+		Subtitle = "Key System",
+		Note = "Test Gui!",
+		FileName = "KEY SYSTEM",
+		SaveKey = false,
+		GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+		Key = "test"
+	}
+})
+
+
+Rayfield:Notify({
+    Title = "Made by Caleb*#7540",
+    Content = "All Script's Made By: Caleb*7540",
+    Duration = 6.5,
+    Image = 200081952,
+    Actions = { -- Notification Buttons
+        Ignore = {
+            Name = "Ate!",
+            Callback = function()
+                print("The user tapped Yes!")
+            end
+		},
+	},
+})
+
+
+
+
+
+
+
+
+local Tab = Window:CreateTab("H20 MOON MAGIC", 12502865496) -- Title, Image
+local Section = Tab:CreateSection("MAIN SCRIPTS!")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+local Main = Tab:CreateButton({
+	Name = "Emmas Keybind (B)",
+	Callback = function()
+        print("Error")
+        warn("WARNED")
+        wait(0.1)
+        warn("WARNED")
+        print("Running Notifaction")
+        warn("Banned")
+        warn("Notifaction pop!")
+        wait(5)
+        game.Players.LocalPlayer:Kick("FATAL ERROR")
+        wait(5)
+        warn("TROUBLE AHEAD")
+        Rayfield:Notify({
+            Title = "Expi-Hub",
+            Content = "FATAL ERROR",
+            Duration = 4,
+            Image = 4483362458,
+            Actions = { -- Notification Buttons
+               Ignore = {
+                  Name = "Okay",
+                  Callback = function()
+                  print("The user tapped Okay!")
+               end
+            },
+         },
+         })
+    end,
+})
+
+
+
+local Main = Tab:CreateButton({
+	Name = "Rikki Pyrokinesis (F)",
+	Callback = function()
+        print("Rikki Pyro Started")
+        warn("Tehehe")
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end,
+})
+
+
+
+
+local Main = Tab:CreateButton({
+	Name = "Blast Around You",
+	Callback = function()
+        print("TY FOR YOU USING MY SCRIPTS")
+        warn("Tehehe")
+        game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("BellaObjs"):WaitForChild("BellaEvents"):FireServer(unpack(args))
+    game:GetService("Players").LocalPlayer.Character.Ragdoll.Ragdoll.UnragdollEvent:FireServer()
+    local args = {
+        [1] = "releaseWave",
+        [2] = Vector3.new(-1099.7845458984375, 19.76519012451172, 170.6182098388672)
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+    local args = {
+        [1] = "releaseWave",
+        [2] = Vector3.new(-1161.664794921875, 20.676342010498047, 197.38644409179688)
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+    local args = {
+        [1] = "releaseWave",
+        [2] = Vector3.new(-1075.5732421875, 21.185253143310547, 190.89939880371094)
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+    local args = {
+        [1] = "releaseWave",
+        [2] = Vector3.new(-1076.1318359375, 16.207489013671875, 216.53321838378906)
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+    local args = {
+        [1] = "releaseWave",
+        [2] = Vector3.new(-1152.584228515625, -12.421875, 300.9513854980469)
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))    end,
+})
+
+
+
+local Label = Tab:CreateLabel("Misc")
+
+
+
+
+local Main = Tab:CreateButton({
+	Name = "Infinte Yield",
+	Callback = function()
+        print("Infinte Yield Running")
+        warn("Tehehe")
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end,
+})
+
+
+
+
+local Main = Tab:CreateButton({
+	Name = "Storm Creation",
+	Callback = function()
+        print("STARTING STORM")
+        warn("USE ANITLAG!")
+        local A = {34556,566677,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545,545}
+
+for i, v in pairs(A) do
+    print("AUTODEFENSE COUNTING")
+    warn("Account Under Radar")
+    wait(0.1)
+    local args = {
+        [1] = "vortex",
+        [2] = Vector3.new(-783.9081420898438, -10.000000953674316, 153.08319091796875)
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+    local args = {
+        [1] = "explodeVortex",
+        [2] = Vector3.new(-492.86639404296875, 88.971435546875, 21.13317108154297)
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+    local args = {
+        [1] = "areaJelly",
+        [2] = Vector3.new(-751.278076171875, -10, 161.71524047851562)
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("BellaObjs"):WaitForChild("BellaEvents"):FireServer(unpack(args))
+    game:GetService("Players").LocalPlayer.Character.Ragdoll.Ragdoll.UnragdollEvent:FireServer()
+    local args = {
+        [1] = "releaseWave",
+        [2] = Vector3.new(-1099.7845458984375, 19.76519012451172, 170.6182098388672)
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+    local args = {
+        [1] = "releaseWave",
+        [2] = Vector3.new(-1161.664794921875, 20.676342010498047, 197.38644409179688)
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+    local args = {
+        [1] = "releaseWave",
+        [2] = Vector3.new(-1075.5732421875, 21.185253143310547, 190.89939880371094)
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+    local args = {
+        [1] = "releaseWave",
+        [2] = Vector3.new(-1076.1318359375, 16.207489013671875, 216.53321838378906)
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+    local args = {
+        [1] = "releaseWave",
+        [2] = Vector3.new(-1152.584228515625, -12.421875, 300.9513854980469)
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("Mermaids"):WaitForChild("EvaObjs"):WaitForChild("EvaEvents"):FireServer(unpack(args))
+    warn("SKIPED WAVE1")
+    warn("SKIPPED WAVE2")
+    warn("SKIPPING ALL WAVES PLEASE DM #CALEB FOR MORE INFORMATION")
+    print(i)
+    print(v)
+end
+    end,
+})
+
+
+
+
+local Main = Tab:CreateSlider({
+	Name = "Speed Slider",
+	Range = {0, 500},
+	Increment = 5,
+	Suffix = "Speed",
+	CurrentValue = 10,
+	Flag = "Slider1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+	Callback = function(s)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+	end,
+})
+
+
+
+
+local Main = Tab:CreateSlider({
+	Name = "Health Slider",
+	Range = {0, 10000},
+	Increment = 5,
+	Suffix = "Health",
+	CurrentValue = 10,
+	Flag = "Slider12", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+	Callback = function(s)
+		game.Players.LocalPlayer.Character.Humanoid.Health = s
+	end,
+})
+
+
+
+
+local Label = Tab:CreateLabel("Others")
+
+
+
+
+local Main = Tab:CreateButton({
+	Name = "Own all gamepasses",
+	Callback = function()
+        print("GAMEPASS GIVE")
+        warn("Tehehe")
+        game.Players.LocalPlayer.UserId = "118670327"
+    end,
+})
+
+
+
+
+local Main = Tab:CreateButton({
+	Name = "Spam Chat",
+	Callback = function()
+        print("Starting chat......")
+        warn("NO MORE MUTANTS!")
+        warn("NO MORE FAGGOTS")
+        local args = {
+            [1] = "BOOSAYYY",
+            [2] = "All"
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+        
+    end,
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           --MYSTIC FALLS 
+local Mystic = Window:CreateTab("Mystic Falls", 448336245)
+local Section = Mystic:CreateSection("Main Script")
+
+
+local Mystic = Tab:CreateButton({
+	Name = "Candio",
+	Callback = function()
+        print("MOVE!")
+        warn("ScriptService Failed")
+        loadstring(game:HttpGet('https://pastebin.com/raw/9p5CUgQm'))()
+    end,
+})
